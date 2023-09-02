@@ -1,0 +1,27 @@
+{
+  "name": "namastereact",
+  "version": "1.0.0",
+  "description": "learning react o1",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manu-ESD/NamasteReact.git"
+  },
+  "keywords": [
+    "react",
+    "namaste"
+  ],
+  "author": "manohar guggilla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manu-ESD/NamasteReact/issues"
+  },
+  "homepage": "https://github.com/Manu-ESD/NamasteReact#readme",
+  "dependencies": {
+    "parcel": "^2.9.3",
+    "uuid": "^9.0.0"
+  }
+}
