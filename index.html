@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-
     <noscript
       ><div class="NoScriptMain">
         <h1 class="NoScriptHead">Javascript in your browser is Disabled!!!</h1>
@@ -16,16 +15,9 @@
   <body>
     <div id="root"></div>
 
-    <script
-      crossorigin
-      src="https://unpkg.com/react@18/umd/react.development.js"
-    ></script>
-    <script
-      crossorigin
-      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
-    ></script>
-
-    <script>
+    <script type="module">
+      import React from "react";
+      import ReactDOM from "react-dom/client";
       const heading = React.createElement("div", { id: "main" }, [
         React.createElement("div", { id: "child1" }, [
           React.createElement("h1", {}, "Hello"),
