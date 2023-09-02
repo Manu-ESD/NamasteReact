@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <noscript><div class="NoScriptMain">
+        <h1 class="NoScriptHead">Javascript in your browser is Disabled!!!</h1>
+      </div></noscript>
+    <noscript><link rel="stylesheet" href="/index.cf72ecb8.css"></noscript>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <script crossorigin="" src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin="" src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <script>const heading = React.createElement("div", {
+    id: "main"
+}, [
+    React.createElement("div", {
+        id: "child1"
+    }, [
+        React.createElement("h1", {}, "Hello"),
+        React.createElement("h2", {}, "World")
+    ]),
+    React.createElement("div", {
+        id: "child2"
+    }, [
+        React.createElement("h1", {}, "Namaste"),
+        React.createElement("h2", {}, "Javascript")
+    ])
+]);
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(heading);
+console.log("Heading==>", heading);
+console.log("ROOT==>", root);
+
+</script>
+  <script src="/NamasteReact.3464ddca.js"></script></body>
+</html>
